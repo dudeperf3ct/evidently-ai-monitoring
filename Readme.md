@@ -1,6 +1,6 @@
 # Evidently AI
 
-Evidently is an open-source Python library for data scientists and ML engineers. It helps evaluate, test and monitor the performance of ML models from validation to production.
+[Evidently AI](https://evidentlyai.com/) is an open-source Python library for data scientists and ML engineers. It helps evaluate, test and monitor the performance of ML models from validation to production.
 
 ## Dataset
 
