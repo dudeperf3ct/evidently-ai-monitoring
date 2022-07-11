@@ -2,6 +2,22 @@
 
 [Evidently AI](https://evidentlyai.com/) is an open-source Python library for data scientists and ML engineers. It helps evaluate, test and monitor the performance of ML models from validation to production.
 
+**Installation**
+
+Create a conda environment and install dependencies:
+
+```bash
+conda create --name test_env python=3.8
+conda activate test_env
+pip install -r requirements.txt
+jupyter nbextension install --sys-prefix --symlink --overwrite --py evidently
+jupyter nbextension enable evidently --py --sys-prefix
+```
+
+```bash
+jupyter notebook
+```
+
 ## Dataset
 
 Download dataset: <https://www.kaggle.com/datasets/gabrielsantello/lending-club-loan-preprocessed-dataset>
